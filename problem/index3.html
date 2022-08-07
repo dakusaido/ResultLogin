@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container_demo" >
+        <div id="wrapper">
+            <div id="login">
+                <form action="mysuperscript.php" method="POST" autocomplete="on">
+                    <h1>Авторизация</h1>
+                    <p>
+                        <label for="username" class="uname" data-icon="u" > Ваш почта или логин </label>
+                        <input id="username" name="username" required="required" type="text" placeholder="myusername или mymail@mail.com"/>
+                    </p>
+                    <p>
+                        <label for="password" class="youpasswd" data-icon="p"> Ваш пароль </label>
+                        <input id="password" name="password" required="required" type="password" placeholder="пример Fas21E3fSg" />
+                    </p>
+                    <p class="login button">
+                        <input type="submit" class="btnSubmit" value="Войти" />
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
